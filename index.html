@@ -3,10 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>DevOps Engineer Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is a simple portfolio website.</p>
+    <header>
+        <h1>Shivanshu Tyagi</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate DevOps Engineer with expertise in cloud infrastructure, CI/CD pipelines, and container orchestration. With a strong background in both development and operations, I aim to bridge the gap between software development and IT operations to deliver high-quality, reliable software.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Cloud Platforms: AWS, Azure, Google Cloud</li>
+            <li>CI/CD: Jenkins, GitHub Actions, GitLab CI</li>
+            <li>Containerization: Docker, Kubernetes</li>
+            <li>Infrastructure as Code: Terraform, CloudFormation</li>
+            <li>Monitoring: Prometheus, Grafana, ELK Stack</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Multi-Tier Website on AWS</h3>
+            <p>Deployed a scalable PHP website with a multi-tier architecture using AWS EC2, RDS, Autoscaling, and Load Balancer.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: CI/CD Pipeline with Jenkins</h3>
+            <p>Implemented a robust CI/CD pipeline using Jenkins, automating the build, test, and deployment processes for multiple applications.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shivanshu Tyagi. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>
